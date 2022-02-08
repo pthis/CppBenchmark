@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">CppBenchmark
-   &#160;<span id="projectnumber">1.0.0.0</span>
+   &#160;<span id="projectnumber">1.0.2.0</span>
    </div>
    <div id="projectbrief">C++ Benchmark Library</div>
   </td>
@@ -78,19 +78,20 @@ $(function() {
 <div class="line"> </div>
 <div class="line"><a name="a0"></a><a class="code" href="cppbenchmark_8h.html#a8155a21ede70a871be3fe8c3ec0390ac">BENCHMARK</a>(<span class="stringliteral">&quot;sin()&quot;</span>)</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">static</span> <span class="keywordtype">double</span> sum = 0;</div>
+<div class="line">    [[maybe_unused]] <span class="keyword">static</span> <span class="keywordtype">double</span> sum = 0;</div>
 <div class="line">    sum += sin(123.456);</div>
+<div class="line"> </div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><a class="code" href="cppbenchmark_8h.html#a8155a21ede70a871be3fe8c3ec0390ac">BENCHMARK</a>(<span class="stringliteral">&quot;cos()&quot;</span>)</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">static</span> <span class="keywordtype">double</span> sum = 0;</div>
+<div class="line">    [[maybe_unused]] <span class="keyword">static</span> <span class="keywordtype">double</span> sum = 0;</div>
 <div class="line">    sum += cos(123.456);</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line"><a class="code" href="cppbenchmark_8h.html#a8155a21ede70a871be3fe8c3ec0390ac">BENCHMARK</a>(<span class="stringliteral">&quot;tan()&quot;</span>)</div>
 <div class="line">{</div>
-<div class="line">    <span class="keyword">static</span> <span class="keywordtype">double</span> sum = 0;</div>
+<div class="line">    [[maybe_unused]] <span class="keyword">static</span> <span class="keywordtype">double</span> sum = 0;</div>
 <div class="line">    sum += tan(123.456);</div>
 <div class="line">}</div>
 <div class="line"> </div>
